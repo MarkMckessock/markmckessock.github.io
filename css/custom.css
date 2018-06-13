@@ -18,7 +18,7 @@ html, body {
 }
 
 .profile {
-      width: 30%;
+      position: static;
   }
 
 .photo-column {
@@ -90,10 +90,10 @@ svg {
     background-image: url("/images/background.jpg") !important;
   }
   .profile {
-      padding-left: 80%;
-      z-index: 2;
-      position: relative;
-      padding-top: 20%;
+      width: 50%;
+      float: right;
+      padding-right: 10%;
+      padding-top: 40%;
   }
   .description-column {
     width: 67% !important;
@@ -119,9 +119,9 @@ svg {
   }
   .profile {
       padding-left: 60%;
-      z-index: 2;
-      position: relative;
-      padding-top: 10%;
+      max-height: 60%;
+      float: right;
+      padding-right: 5%;
   }
   .description-column {
     width: 100% !important;
