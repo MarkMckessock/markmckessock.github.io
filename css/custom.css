@@ -17,6 +17,9 @@ html, body {
   width: 100%;
 }
 
+.profile {
+      width: 30%;
+  }
 
 .photo-column {
   background-size: cover;
@@ -86,8 +89,7 @@ svg {
     width: 33% !important;
     background-image: url("/images/background.jpg") !important;
   }
-  .profile{
-      width: 30%;
+  .profile {
       padding-left: 80%;
       z-index: 2;
       position: relative;
@@ -115,8 +117,7 @@ svg {
     height: 250px;
     width: 100%;
   }
-  .profile{
-      width: 30%;
+  .profile {
       padding-left: 60%;
       z-index: 2;
       position: relative;
